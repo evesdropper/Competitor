@@ -1,0 +1,62 @@
+
+table, th, td {
+    border: 1px solid white;
+  }
+
+table {
+    width: 100%; 
+    background-color: #2B2E38; 
+    color: white; 
+    font-family: Trebuchet MS;
+  }
+
+th {
+    text-align: center;
+    font-size: 18px;
+    padding: 5px 20px;
+}
+
+.objective{
+    text-align: left; 
+    word-wrap: break-word; 
+    min-width: 400px; 
+    max-width: 400px; 
+    word-wrap: break-word; 
+    white-space: -webkit-pre-wrap; 
+    word-break: break-all; 
+    white-space: normal; 
+    -webkit-hyphens: auto; 
+    -moz-hyphens: auto; -ms-hyphens: auto; hyphens: auto;
+}
+
+.points{
+    min-width: 80px;
+    max-width: 80px;
+    color:gold;
+    text-align: center;
+}
+
+.status{
+    min-width: 80px;
+    max-width: 80px;
+    text-align: center;
+}
+
+.prizes{
+    min-width: 120px;
+    max-width: 120px;
+    text-align: center;
+}
+
+tbody {
+    overflow-wrap: normal;
+}
+
+td {
+    white-space:pre;
+    padding: 5px 10px;
+  }
+
+tr:hover {
+    background-color: #525972;
+}
