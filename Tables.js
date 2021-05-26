@@ -31,6 +31,13 @@ prizes("prize11",5,prizetypes[1])
 prizes("prize12",5,prizetypes[2]) // Challenge 12
 
 // Organizer Tab
+organizers = ['Dynasty','Person_Random','Venerable']
+
+function organizer(element,name='Dynasty'){ // Sets default value to Dynasty
+    document.getElementById(element).innerHTML=name
+}
+
+// Organizers
 
 // Status Menu
 statusmenu = ["Open","Under Review","Closed"]

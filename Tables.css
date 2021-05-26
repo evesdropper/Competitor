@@ -3,7 +3,7 @@ table, th, td {
     border: 1px solid white;
   }
 
-img {
+.images {
     display: inline;
     max-height: 25px;
 }
@@ -49,6 +49,12 @@ th {
 }
 
 .prizes{
+    min-width: 90px;
+    max-width: 120px;
+    text-align: center;
+}
+
+.organizer{
     min-width: 90px;
     max-width: 120px;
     text-align: center;
