@@ -3,7 +3,7 @@ table, th, td {
     border: 1px solid white;
   }
 
-.images {
+img {
     display: inline;
     max-height: 25px;
 }
