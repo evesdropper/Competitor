@@ -64,3 +64,9 @@ td {
 tr:hover {
     background-color: #525972;
 }
+
+/* Button */
+#enter-button {
+    display: absolute;
+    bottom: 50px;
+}

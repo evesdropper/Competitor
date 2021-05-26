@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+<head>
+
+ <!-- Required Text -->
+<meta charset = "UTF-8">
+<title>Challenges Form - Tanki Online Newspaper</title>
+
+<!-- CSS/Scripts -->
+<script src = "Headers.js" type = "text/javascript"></script>
+<link rel = "stylesheet" type = "text/css" href = "Zero.css"/>`
+</head>
+
+<body>
+
+<div class="container" id="title">
+<h1 style="color:#96f">Newspaper Challenges</h1>
+<h2 style="font-size:18px;">Complete challenges to get a leg up in Competitor. Good luck!</h2>
+<hr>
+</div>
+
+<div class="container-md col-6" id="form">
+<form>
+<p class="mb-3">Your Nickname</p>
+<div class="form-floating mb-3">
+  <input type="text" class="form-control" id="nick" placeholder="Nickname" required>
+  <label for="nick">Nickname</label>
+</div>
+<p class="mb-3">What challenge would you like to submit an entry for?</p>
+<select class="form-select" aria-label="Default select example" required>
+    <option selected disabled>Select a Challenge</option>
+    <option value="1" id='obj1'></option>
+    <option value="2" id='obj2'></option>
+    <option value="3" id='obj3'></option>
+    <option value="4" id='obj4'></option>
+    <option value="5" id='obj5'></option>
+    <option value="6" id='obj6'></option>
+    <option value="7" id='obj7'></option>
+    <option value="8" id='obj8'></option>
+    <option value="9" id='obj9'></option>
+    <option value="10" id='obj10'></option>
+    <option value="11" id='obj11'></option>
+    <option value="12" id='obj12'></option>
+    <script src = "Challenges.js" type = "text/javascript" ></script>
+</select>
+<br>
+<div class="col-6" id="formcheck">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+      <label class="form-check-label" for="invalidCheck2">
+        I have read and understood the rules.
+      </label>
+    </div>
+  </div>
+  <br>
+  <div class="col-6">
+    <button class="btn btn-primary" type="submit">Next</button>
+  </div>
+  <br>
+</form>
+</div>
+
+</body>
+
+<footer class="container-fluid">
+    <h3 style="font-size:20px;">Tanki Online Newspaper</h3>
+    <p id="credits">Brought to you by the Tanki Online Newspaper Reporters and Contest Organizers.</p>
+</footer>
+
+</html>
