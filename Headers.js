@@ -1,4 +1,5 @@
-var header = `<div class="container">
+var nav = `<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<div class="container">
   <a class="navbar-brand" href="Index.html">Competitor.</a>
   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -26,15 +27,22 @@ var header = `<div class="container">
     </span>
   </div>
 </div>
+</nav>
 `
 
-var footer = `<footer class="container-fluid">
-<h3 style="font-size:20px;">Tanki Online Newspaper</h3>
-<p id="credits">Brought to you by the Tanki Online Newspaper Reporters and Contest Organizers.</p>
-</footer>`
+styles = `<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<link rel = "stylesheet" type = "text/css" href = "tables.css" />
+<link rel = "stylesheet" type = "text/css" href = "Zero.css"/>`
 
-function setdefault(element,value){
-    document.getElementbyID(element).innerHTML(value)
+title_img = '<img class="border" style="width: 100%" src="https://i.imgur.com/62lbngm.jpg">'
+
+function setdefault(value){
+  document.write(value)
 }
 
-setdefault("<nav>",header)
+defaultElements = [styles,nav,title_img]
+
+for (var i=0; i<3; i++){
+  setdefault(defaultElements[i])
+}
