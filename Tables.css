@@ -3,11 +3,17 @@ table, th, td {
     border: 1px solid white;
   }
 
+img {
+    display: inline;
+    max-height: 25px;
+}
+
 table {
-    width: 100%; 
+    width: 80%; 
     background-color: #2B2E38; 
     color: white; 
     font-family: Trebuchet MS;
+    margin: 20px 50px;
   }
 
 th {
@@ -19,7 +25,7 @@ th {
 .objective{
     text-align: left; 
     word-wrap: break-word; 
-    min-width: 400px; 
+    min-width: 300px; 
     max-width: 400px; 
     word-wrap: break-word; 
     white-space: -webkit-pre-wrap; 
@@ -30,20 +36,20 @@ th {
 }
 
 .points{
-    min-width: 80px;
+    min-width: 60px;
     max-width: 80px;
     color:gold;
     text-align: center;
 }
 
 .status{
-    min-width: 80px;
+    min-width: 60px;
     max-width: 80px;
     text-align: center;
 }
 
 .prizes{
-    min-width: 120px;
+    min-width: 90px;
     max-width: 120px;
     text-align: center;
 }
