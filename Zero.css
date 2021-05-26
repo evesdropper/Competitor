@@ -1,0 +1,62 @@
+/* Global Settings */
+main,footer { 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+a:hover {
+    color: blue;
+}
+
+/* Title */
+h1,h2 {
+    text-align: center;
+}
+#title {
+    padding: 10px 50px;
+}
+
+/* Body*/
+#body {
+    padding: 10px 0px 75px 0px;
+}
+
+/* Section Head */
+.icon {
+    display: inline;
+    max-height: 40px;
+}
+.section-head {
+    color: #9966ff;
+    white-space: nowrap;
+    display: inline;
+    font-size: 24px;
+}
+
+/* Tables */
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th,td {
+    padding: 2px 5px;
+}
+
+th {
+    font-size: 18px;
+    color: #96f;
+}
+
+/* Footer */
+footer{
+    background-color: rgba(0,0,0,0.2);
+    padding: 10px 50px;
+    text-align: center;
+}
+#readnext {
+    text-align: center;
+    padding: 25px;
+    margin: 5px;
+}
+#credits {
+    font-size: 11px;
+ }
