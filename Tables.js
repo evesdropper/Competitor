@@ -2,6 +2,24 @@
 
 
 // Challenges
+challenge1 = "This is a test challenge."
+challenge2 = 
+challenge3 = 
+challenge4 = 
+challenge5 = 
+challenge6 = 
+challenge7 = 
+challenge8 = 
+challenge9 = 
+challenge10 = 
+challenge11 = 
+challenge12 = 
+
+function challenges(element,chall="Coming Soon"){
+    document,getElementById(element).innerHTML = chall
+}
+
+challenges()
 
 
 // Prizes

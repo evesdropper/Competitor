@@ -1,3 +1,4 @@
+/* Default from the main page*/
 
 table, th, td {
     border: 1px solid white;
@@ -14,6 +15,8 @@ table {
     color: white; 
     font-family: Trebuchet MS;
     margin: 20px 50px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 th {
@@ -24,39 +27,28 @@ th {
 
 .objective{
     text-align: left; 
-    word-wrap: break-word; 
-    min-width: 300px; 
-    max-width: 400px; 
-    word-wrap: break-word; 
-    white-space: -webkit-pre-wrap; 
-    word-break: break-all; 
+    word-wrap: normal; 
+    white-space: -webkit-pre-wrap;   
+    word-break: break-word; 
     white-space: normal; 
     -webkit-hyphens: auto; 
     -moz-hyphens: auto; -ms-hyphens: auto; hyphens: auto;
 }
 
 .points{
-    min-width: 60px;
-    max-width: 80px;
     color:gold;
     text-align: center;
 }
 
 .status{
-    min-width: 60px;
-    max-width: 80px;
     text-align: center;
 }
 
 .prizes{
-    min-width: 90px;
-    max-width: 120px;
     text-align: center;
 }
 
 .organizer{
-    min-width: 90px;
-    max-width: 120px;
     text-align: center;
 }
 

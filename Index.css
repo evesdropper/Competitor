@@ -1,0 +1,14 @@
+/* Tables */
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th,td {
+    padding: 2px 5px;
+}
+
+th {
+    font-size: 18px;
+    color: #96f;
+}

@@ -6,6 +6,11 @@ a:hover {
     color: blue;
 }
 
+/* Nav */
+nav {
+    font-family: 'Trebuchet MS';
+}
+
 /* Title */
 h1,h2 {
     text-align: center;
@@ -31,24 +36,10 @@ h1,h2 {
     font-size: 24px;
 }
 
-/* Tables */
-table {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-th,td {
-    padding: 2px 5px;
-}
-
-th {
-    font-size: 18px;
-    color: #96f;
-}
-
 /* Footer */
 footer{
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.9);
+    color: #9B9D9E;
     padding: 10px 50px;
     text-align: center;
 }
