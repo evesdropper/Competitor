@@ -19,7 +19,6 @@ function challenges(element,chall="Coming Soon"){
     document,getElementById(element).innerHTML = chall
 }
 
-challenges()
 
 
 // Prizes
