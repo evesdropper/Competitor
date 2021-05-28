@@ -6,6 +6,33 @@ a:hover {
     color: blue;
 }
 
+/* Main Container */
+
+* {
+ box-sizing: border-box;
+}
+*:before,
+*:after {
+ box-sizing: border-box;
+}
+html,
+body {
+ height: 100%;
+ position: relative;
+}
+main {
+ min-height: 100vh; /* will cover the 100% of viewport */
+ overflow: hidden;
+ display: block;
+ position: relative;
+ padding-bottom: 100px; /* height of your footer */
+}
+footer {
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+}
+
 /* Nav */
 nav {
     font-family: 'Trebuchet MS';
@@ -31,6 +58,7 @@ h1,h2 {
     max-height: 40px;
 }
 .section-head {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #9966ff;
     white-space: nowrap;
     display: inline;
