@@ -14,7 +14,7 @@ var nav = `<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
           Challenges
         </a>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <li><a class="dropdown-item" href="Tables.html">Current Challenges</a></li>
+          <li><a class="dropdown-item" href="tables.html">Current Challenges</a></li>
           <li><a class="dropdown-item" href="form_main.html">Form</a></li>
         </ul>
       </li>
