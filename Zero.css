@@ -64,6 +64,9 @@ h1,h2 {
     display: inline;
     font-size: 24px;
 }
+caption {
+    font-size: 10px;
+}
 
 /* Footer */
 footer{
